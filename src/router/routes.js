@@ -5,7 +5,8 @@ import NotFound from "@/views/NotFoundView.vue";
 
 export const routes = [
   {
-    path: "/",
+    path: "/home",
+    alies: "/",
     name: "home",
     component: HomeView,
   },
