@@ -1,5 +1,13 @@
 <template>
-    <h1>Home</h1>
+    <main class="home">
+        <div class="home__container">
+            <div class="home__wrapper">
+                <div class="home__body">
+                    <h1>home</h1>
+                </div>
+            </div>
+        </div>
+    </main>
 </template>
 
 <script setup></script>
