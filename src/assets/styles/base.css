@@ -47,34 +47,3 @@ li {
 a {
   color: var(--text-secondary);
 }
-
-body {
-  min-height: 100vh;
-  color: var(--text-main);
-  background-color: var(--bg-main);
-  transition: color 0.5s, background-color 0.5s;
-  font-family: sans-serif;
-}
-
-*[class*="container"] {
-  padding: 1rem 0;
-}
-
-*[class*="wrapper"] {
-  max-width: calc(var(--wrapper-width) + 1rem * 2);
-  margin-inline: auto;
-  padding-inline: 1rem;
-}
-
-body {
-}
-
-#app {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1 1 auto;
-}
